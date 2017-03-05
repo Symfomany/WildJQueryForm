@@ -1,0 +1,131 @@
+{
+data: [
+{
+id: 1,
+pseudo: "Rick Grimes",
+sexe: true,
+photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Andrew_Lincoln_2012.jpg/200px-Andrew_Lincoln_2012.jpg",
+activite: "Sheriff",
+naissance: "24/12/1975",
+coord: {
+lat: "45.764043",
+long: "4.835659"
+},
+pays: "USA",
+resume: "Rick Grimes est adjoint du shérif du comté de King, non loin d'Atlanta. Alors qu'il participe à une course poursuite avec son meilleur ami et coéquipier Shane Walsh, la poursuite tourne à la fusillade et il reçoit une balle dans le dos. Il sombre dans le coma sous les yeux de son ami. Lorsqu'il se réveille à l'hôpital, il constate que le lieu est vide, du sang et des traces de balles parsèment les couloirs. Il découvre en sortant de l'hôpital un charnier de cadavres enveloppés dans des draps blancs. Il se rend chez lui alors qu'il recherchait désespérément sa femme et son fils, il se fait assommer par un enfant. Le père de l'enfant nommé Morgan, le transporte chez eux, le soigne et le nourrit. Il explique à Rick qu'une partie de la population a été infectée et s'est transformée en mort-vivants, appelés rôdeur. Il apprend aussi que l'on peut être infecté par leur morsure ou griffure.",
+saison: [
+1,
+2,
+3,
+4,
+5,
+6,
+7
+]
+},
+{
+id: 2,
+pseudo: "Daryl Dixon",
+sexe: true,
+photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Norman_Reedus_by_Gage_Skidmore.jpg/200px-Norman_Reedus_by_Gage_Skidmore.jpg",
+activite: "Chasseur",
+naissance: "06/01/1969",
+coord: {
+lat: "45.755240",
+long: "4.890289"
+},
+pays: "USA",
+resume: "Jeune frère de Merle, Daryl est un rustre, une tête brûlée efficace mais taciturne, au caractère difficile. Il arrive cependant à se contenir et à coopérer rapidement avec le reste du groupe. Il se révèle alors être un élément indispensable face aux ennemis, rôdeurs ou vivants. Son arme de prédilection est une arbalète de chasse (une Horton Scout HD 125 de la première à la troisième saison, puis à partir de la troisième saison, une Stryker Strykezone 380 Black Ops) qu'il manie à la perfection. Il est précis, silencieux (un vrai atout contre les rôdeurs) et ses flèches réutilisables est un plus dans un monde où les munitions sont une denrée rare. Il est également le chasseur attitré du groupe. Au début de la série, il lutte constamment avec ses propres insécurités. Il devient par la suite un personnage clé de la série, Rick le considérant comme son frère.",
+saison: [
+1,
+2,
+3,
+4,
+5,
+6,
+7
+]
+},
+{
+id: 3,
+pseudo: "Maggie Greene",
+sexe: false,
+photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Lauren_Cohan_by_Gage_Skidmore.jpg/200px-Lauren_Cohan_by_Gage_Skidmore.jpg",
+activite: "Fermière",
+naissance: "07/01/1982",
+coord: {
+lat: "45.732786",
+long: "4.818192"
+},
+pays: "USA",
+resume: "Maggie est la demi-sœur aînée de la jeune Beth, leur père étant Hershel Greene. Elle entame une relation avec Glenn lorsque celui-ci arrive avec le groupe à la ferme, au début pour assouvir ses envies sexuelles, puis finit par tomber amoureuse de lui. On apprendra dans la sixième saison qu'elle est enceinte.",
+saison: [
+2,
+3,
+4,
+5,
+6,
+7
+]
+},
+{
+id: 4,
+pseudo: "Carl Grimes",
+sexe: true,
+photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Chandler_Riggs_2014.jpg/200px-Chandler_Riggs_2014.jpg",
+activite: "Enfant",
+naissance: "27/06/1999",
+coord: {
+lat: "45.703235",
+long: "4.888573"
+},
+pays: "USA",
+resume: "Jeune garçon de 11 ans dans la première saison, c'est le fils de Rick et Lori. Étant orphelin, le petit garçon entretien une relation privilégié avec Shane.Dans la première saison, Carl est ami avec la jeune Sophia. Au fur et à mesure des saisons, il veut s'affirmer et décide alors de défendre et de protéger le groupe avec l'accord de son père, Rick. Mais les décisions qu'il entreprend ne sont pas toujours justifiées. Son arme de prédilection est un Beretta 92FS 9 mm de 1976. Il donne un amour sans faille à sa petite sœur, et choisira son prénom. Il perdra son œil par la faute de Ron lors de l'épisode Sans issue.",
+saison: [
+2,
+3,
+4,
+5,
+6,
+7
+]
+},
+{
+id: 5,
+pseudo: "Lori Grimes",
+sexe: false,
+photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sarah_Wayne_Callies_by_Gage_Skidmore.jpg/200px-Sarah_Wayne_Callies_by_Gage_Skidmore.jpg",
+activite: "Femme au foyer",
+naissance: "01/06/1977",
+coord: {
+lat: "45.691725",
+long: "4.813042"
+},
+pays: "USA",
+resume: "C'est la femme de Rick. Le fils unique de Lori et Rick est Carl Grimes, âgé d'environ 12 ans. Alors qu'elle pense son mari mort, elle subira la perversion de Shane, le meilleur ami de son mari. Finalement, elle ordonne Shane de s'éloingner et avoue tout a Rick lorsque celui-ci réapparaît, après avoir découvert que Shane lui a délibérément menti au sujet de l'état de ce dernier, en le faisant passer pour mort. Soutenant toujours les décisions de son mari, elle a cependant parfois du mal à approuver les décisions parfois radicales de ce dernier. À la fin de la saison, Shane tente de la violer sous l'effet de l'alcool au CDC mais elle parvient à l'éloigner et à lui faire reprendre ses esprits. Elle fuit le CDC juste avant l'explosion.",
+saison: [
+1,
+2,
+3
+]
+},
+{
+id: 8,
+pseudo: "Carol Peletier",
+sexe: true,
+photo: "https://upload.wikimedia.org/wikipedia/en/8/80/CarolPeletier.jpg",
+activite: "Soldat Tueur",
+naissance: "15/11/2016",
+coord: {
+lat: "45.991471",
+long: "4.718821"
+},
+pays: "France",
+resume: "kjfhbkshdfh sdfod ihsdiuishishf hsuihfuisdf hsdui hsdfdsisihfuisdhifuikjfhbkshdfh sdfod ihsdiuishishf hsuihfuisdf hsdui hsdfdsisihfuisdhifuikjfhbkshdfh sdfod ihsdiuishishf hsuihfuisdf hsdui hsdfdsisihfuisdhifuikjfhbkshdfh sdfod ihsdiuishishf hsuihfuisdf hsdui hsdfdsisihfuisdhifui",
+saison: [
+"s1",
+"s3"
+]
+}
+]
+}

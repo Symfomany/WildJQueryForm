@@ -1,0 +1,46 @@
+{
+  "name": "gulp-exo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uncss": "^1.0.6",
+    "gutil": "^1.6.4",
+    "is-my-json-valid": "^2.15.0",
+    "jshint": "^2.9.4",
+    "json-server": "^0.9.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "debug": "jshint --reporter=node_modules/jshint-stylish app",
+    "json": "json-server --watch ./data/walkindead.json",
+    "dev": "npm run debug && gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

@@ -1,0 +1,35 @@
+button {
+  color: #333;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+
+nav ul li {
+  background-color: azure;
+  color: #333;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+
+body div.container h1 {
+  color: #333; }
+
+body div.container div.jumbotron {
+  background-color: beige; }
+  body div.container div.jumbotron a {
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px; }
+  body div.container div.jumbotron footer a {
+    color: #333; }
+  body div.container div.jumbotron ul li {
+    color: #666; }
+
+body div.container h3 {
+  color: cornflowerblue; }
+
+/*# sourceMappingURL=main.sass.min.css.map */

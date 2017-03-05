@@ -1,0 +1,32 @@
+@import 'partial/_variables';
+@import 'partial/_mixins';
+@import 'partial/_buttons';
+@import 'partial/_nav';
+
+body {
+    div.container{
+        h1{
+            color: $primary-color
+        }
+        div.jumbotron{
+            background-color: beige;
+            a{
+                color: $clear-color;
+                @include border-radius(2px)
+            }
+            footer{
+                a{
+                    color: $primary-color;
+                }
+            }
+            ul{
+                li{
+                    color: $secondary-color;
+                }
+            }
+        }
+        h3{
+            color: cornflowerblue
+        }
+    }
+}
