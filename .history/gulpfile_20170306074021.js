@@ -5,7 +5,6 @@
  *  Watches & injects CSS files
  */
 let browserSync = require('browser-sync');
-
 let gulp = require('gulp');
 let sass = require('gulp-sass');
 let size = require('gulp-size');

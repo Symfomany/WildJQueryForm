@@ -5,7 +5,6 @@
  *  Watches & injects CSS files
  */
 let browserSync = require('browser-sync');
-
 let gulp = require('gulp');
 let sass = require('gulp-sass');
 let size = require('gulp-size');
@@ -128,9 +127,13 @@ gulp.task('js', function () {
     return gulp.src([ //ordre a respecter
         "src/app.js",
     ]).on('error', handleError)
+        .pipe(jshint({
+            esnext: true
+        })).on('error', handleError)
         .pipe(plumber({
             errorHandler: notify.onError("Error: <%= error.message %>")
         })) // débogage de mes pipes
+        .pipe(jshint.reporter(stylish))
         .pipe(sourcemaps.init())
         .pipe(concat('app.min.js'))
         .pipe(sourcemaps.write('.'))
