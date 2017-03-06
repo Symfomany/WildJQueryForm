@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h3>JS Partie 2: JQuery & ES6</h3>
+        <hr />
+
+
+        <form action="" method="POST" role="form">
+            <legend>Créer son compte</legend>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sexe" id="homme" value="homme">
+                    Homme
+                </label>
+                <label>
+                    <input type="radio" name="sexe" id="femme" value="femme" >
+                    Femme
+                </label>
+            </div>
+
+
+            <div class="form-group">
+                <label for="">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Nom">
+            </div>
+
+            <div class="form-group">
+                <label for="">Prénom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Prenom">
+            </div>
+
+            <div class="form-group">
+                <label for="">Age</label>
+                <input type="text" class="form-control" id="age" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <label for="">Situation Sociale</label>
+                <input type="radio" name="name" value="etudiant" class="etudiant">
+                <label for="">Etudiant</label>
+
+                <input type="radio" name="name" value="patron" class="patron">
+                <label for="">Patron</label>
+
+                <input type="radio" name="name" value="independant" class="independant">
+                <label for="">independant</label>
+
+                <input type="radio" name="name" value="travailleur" class="travailleur">
+                <label for="">Travailleur</label>
+
+                <input type="radio" name="name" value="autre" class="autre">
+                <label for="">Autre</label>
+
+                <input type="text" name="otherSituation" style="display:none" class="form-control" id="otherSituation">
+
+</div>
+
+<div class="form-group">
+    <label for="">Ville</label>
+    <input type="text" class="form-control" id="ville" placeholder="ex:Lyon">
+</div>
+
+<div class="form-group">
+    <label for="region">Région :</label><br />
+    <select class="form-control" id="region" name="region">
+          <option value="default" selected>Choisissez une région</option>
+          <option value="auvergne">Auvergne-Rhône-Alpes</option>
+          <option value="bourgogne">Bourgogne-Franche-Comte</option>
+          <option value="bretagne">Bretagne</option>
+          <option value="centre">Centre-Val de Loire</option>
+          <option value="corse">Corse</option>
+          <option value="grand-est">Grand-Est</option>
+          <option value="guadeloupe">Guadeloupe</option>
+          <option value="guyane">Guyane</option>
+          <option value="hauts-de-france">Hauts-de-France</option>
+          <option value="ile-de-france">Île-de-France</option>
+          <option value="martinique">Martinique</option>
+          <option value="mayotte">Mayotte</option>
+          <option value="normandie">Normandie</option>
+          <option value="aquitaine">Nouvelle-Aquitaine</option>
+          <option value="occitanie">Occitanie</option>
+          <option value="loire">Pays de la Loire</option>
+          <option value="provence">Provence-Alpes-Côte d'Azur</option>
+          <option value="reunion">Réunion</option>
+        </select>
+</div>
+
+<div class="form-group">
+    <button class="btn btn-xs btn-success">+</button>
+    <button class="btn btn-xs btn-danger">-</button>
+    <label for="">Biographie</label>
+    <textarea class="form-control" id="biography" placeholder="ex:Blabla..."></textarea>
+    <span id="nbCars">0</span> caractères
+</div>
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+<span class="sr-only">60% Complete</span>
+</div>
+</div>
+
+
+<div class="form-group">
+    <label for="">Avatar</label>
+    <input type="url" class="form-control" id="avatar" placeholder="ex: http://www.facebook.com/monImage.jpg">
+    <img src="http://lh5.ggpht.com/-cnS_l9G3Ujw/U9WbCIprN3I/AAAAAAABKJU/yMLKfWUZBXk/avatar-caritas-animadas-gifs-008%25255B6%25255D.gif?imgmax=800"
+        alt="">
+</div>
+
+<div class="form-group">
+    <label for="">Code postal</label>
+    <input type="text" class="form-control" id="cp" placeholder="ex:Lyon">
+</div>
+
+<div class="form-group">
+    <label for="">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Email">
+</div>
+
+<div class="form-group">
+    <label for="">Mot de passe</label>
+    <input type="password" class="form-control" id="password" placeholder="6 caractères">
+</div>
+
+<div class="checkbox">
+    <label>
+                    <input type="checkbox"> Voir le Mot de Passe en Clair
+                </label>
+</div>
+
+<div class="form-group">
+    <label for="">Confirmer le mot de passe</label>
+    <input type="password" class="form-control" id="password" placeholder="6 caractères">
+</div>
+
+<div class="form-group">
+    <label class="control-label" for="hobbies">Hobbies :</label><br />
+    <select class="form-control" id="hobbies" name="hobbies[]" multiple>
+          <option value="basket">Basket</option>
+          <option value="canyoning">Canyoning</option>
+          <option value="cinema">Cinéma</option>
+          <option value="escalade">Escalade</option>
+          <option value="ferrata">Via Ferrata</option>
+          <option value="football">Football</option>
+          <option value="handball">Handball</option>
+          <option value="natation">Natation</option>
+          <option value="parapente">Parapente</option>
+          <option value="parachute">Saut en parachute</option>
+          <option value="plongee">Plongée</option>
+          <option value="series">Séries TV</option>
+          <option value="ski">Ski</option>
+          <option value="tir">Tir à l'arc</option>
+        </select>
+</div>
+
+
+<div class="form-group">
+    <div class="row">
+        <div class="col-md-3">
+            <label for="cbNumber">Numéro :</label><input type="text" name="cbNumber" class="form-control" id="cbNumber" placeholder="12 Numéros"
+            />
+        </div>
+        <div class="col-md-3">
+            <label for="cbExpiration">Date d'expiration :</label><input type="text" name="cbExpiration" class="form-control"
+                id="cbExpiration" placeholder="Date d'expiration" />
+        </div>
+        <div class="col-md-3">
+            <label for="cbCryptogramme">Cryptogramme :</label><input type="text" name="cbCryptogramme" class="form-control"
+                id="cbCryptogramme" placeholder="Cryptogramme" />
+        </div>
+
+    </div>
+</div>
+
+<div class="checkbox">
+    <label>
+                    <input type="checkbox"> J'ai pris connaissance des <a>Condition Générale de Vente</a>
+                </label>
+</div>
+
+
+<button disabled type="submit" class="btn btn-primary">Créer un compte</button>
+</form>
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
